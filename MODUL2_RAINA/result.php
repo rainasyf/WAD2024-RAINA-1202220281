@@ -39,10 +39,10 @@ else {
                 <!-- silahkan jawab disini (menampilkan hasil logika berdasarkan kondisi olahraga) -->
                 <?php
                 if (!empty($hasil)) {
-                    echo "<div class='alert-success'Hasil Pola Makan Anda: $hasil</div>";
+                    echo "<div class='alert-success'>Hasil Pola Makan Anda: $hasil</div>";
                 }
                 if (!empty($error)) {
-                    echo "<div class='alert-success'error Pola Makan Anda: $error</div>";
+                    echo "<div class='alert-success'>error Pola Makan Anda: $error</div>";
                 }
                 ?>
             </p>
